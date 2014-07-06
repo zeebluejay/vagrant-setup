@@ -65,7 +65,7 @@ chmod 600 /home/vagrant/.ssh/authorized_keys
 chown -R vagrant:vagrant /home/vagrant/.ssh
 
 # Update the user's bash profile
-
+curl https://raw.githubusercontent.com/zeebluejay/vagrant-setup/master/bash/.profile >> /home/vagrant/.bash_profile
 
 sed -i 's/^\(Defaults.*requiretty\)/#\1/' /etc/sudoers
 
