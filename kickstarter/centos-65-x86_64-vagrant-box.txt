@@ -43,6 +43,9 @@ man
 vim
 ntp
 tree
+gcc
+kernel-devel
+kernel-headers
 %end
 
 %post
